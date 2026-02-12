@@ -1,0 +1,105 @@
+HTML PAGE 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sunrise Café</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #6f4e37;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #4b2e20;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .menu-item {
+            background: white;
+            padding: 20px;
+            margin: 10px auto;
+            width: 60%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #4b2e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>☕ Sunrise Café</h1>
+    <p>Fresh Coffee • Delicious Food • Warm Ambience</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Sunrise Café is a cozy place to enjoy freshly brewed coffee and homemade snacks.
+       We believe in quality, taste, and happiness.</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-item">
+        <h3>Espresso</h3>
+        <p>₹120</p>
+    </div>
+
+    <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <p>₹150</p>
+    </div>
+
+    <div class="menu-item">
+        <h3>Cold Coffee</h3>
+        <p>₹180</p>
+    </div>
+
+    <div class="menu-item">
+        <h3>Sandwich</h3>
+        <p>₹100</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Kolhapur, Maharashtra</p>
+    <p>📞 +91 98765 43210</p>
+    <p>📧 sunrisecafe@email.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Sunrise Café | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
