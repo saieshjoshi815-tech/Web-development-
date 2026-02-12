@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>HTML Formatting Demo</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>HTML Formatting</h1>
+    <h2>Text Styles</h2>
+
+    <!-- Text Formatting -->
+    <p>
+        <b>Bold</b>,
+        <i>Italic</i>,
+        <u>Underline</u>,
+        <mark>Highlight</mark>,
+        <del>Delete</del>,
+        <ins>Insert</ins>,
+        <strong>Strong</strong>,
+        <em>Emphasis</em>
+    </p>
+
+    <!-- Subscript & Superscript -->
+    <p>
+        Water formula: H<sub>2</sub>O <br>
+        Square: 10<sup>2</sup>
+    </p>
+
+    <!-- Line Break -->
+    This is line one<br>
+    This is line two
+
+    <hr>
+
+    <!-- Lists -->
+    <h3>Programming Languages</h3>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+    </ul>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Link -->
+    <p>
+        <a href="https://www.google.com">Visit Google</a>
+    </p>
+
+    <!-- Image -->
+    <img src="image.jpg" alt="Sample Image" width="200">
+
+    <hr>
+
+    <!-- Div & Span -->
+    <div style="background-color: lightgray; padding: 10px;">
+        This is a <span style="color: red;">formatted</span> div section
+    </div>
+
+</body>
+</html>
