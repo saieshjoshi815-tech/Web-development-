@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MS Dhoni Information - Assignment</title>
+</head>
+<body>
+
+    <div style="background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;">
+        <p><strong>Roll No:</strong> 60</p>
+        <p><strong>Assignment No:</strong> 5</p>
+    </div>
+
+    <h1>MS Dhoni: The Legend of Ranchi</h1>
+
+    <img src="https://mxp-media.ilnmedia.com/media/content/2022/Jul/MS-Dhoni-2011-World-Cup-trophy_62c5e2a527067.jpeg" 
+         alt="MS Dhoni with 2011 World Cup Trophy" 
+         width="300" 
+         style="border: 2px solid black;">
+
+    <h2>Personal Information</h2>
+    <p><strong>Full Name:</strong> Mahendra Singh Dhoni</p>
+    <p><strong>Birth Date:</strong> 7 July 1981</p>
+    <p><strong>Birth Place:</strong> Ranchi, Jharkhand, India</p>
+    <p><strong>Role:</strong> Wicketkeeper-Batsman</p>
+    <p><strong>Nickname:</strong> Captain Cool</p>
+
+    <h2>Career Highlights</h2>
+    <ul>
+        <li>Won ICC T20 World Cup in 2007 (Captain)</li>
+        <li>Won ICC Cricket World Cup in 2011 (Captain)</li>
+        <li>Won ICC Champions Trophy in 2013 (Captain)</li>
+        <li>Led Chennai Super Kings to multiple IPL titles</li>
+        <li>One of the most successful captains in Indian cricket history</li>
+    </ul>
+
+</body>
+</html>
