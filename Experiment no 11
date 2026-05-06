@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <rollno>101</rollno>
+        <name>Rahul</name>
+        <course>BCA</course>
+        <city>Pune</city>
+    </student>
+
+    <student>
+        <rollno>102</rollno>
+        <name>Priya</name>
+        <course>MCA</course>
+        <city>Mumbai</city>
+    </student>
+</students>
