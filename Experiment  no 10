@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        .header p {
+            margin: 5px 0;
+            color: #777;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            background: #333;
+            color: #fff;
+            padding: 5px;
+            font-size: 18px;
+        }
+
+        .section p, .section ul {
+            margin: 10px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #555;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>SAIESH JOSHI</h1>
+        <p>Email: saieshjoshi815@gmail.com| Phone: 8626009206</p>
+    </div>
+
+    <div class="section">
+        <h2>Objective</h2>
+        <p>Motivated student seeking opportunities to apply skills and gain experience.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Science in Computer Science</strong></p>
+        <p>DY PATIL COLLAGE, 2024 - 2028</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website using HTML & CSS</li>
+            <li>Student Management System in Python</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Won coding competition</li>
+            <li>Completed online certifications</li>
+            <li> NCC STUDENT</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 SAIESH JOSHI</p>
+    </div>
+</div>
+
+</body>
+</html>
