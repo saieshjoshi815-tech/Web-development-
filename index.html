@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Web Journal</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#141e30,#243b55);
+    color:white;
+    min-height:100vh;
+}
+
+/* ========================= */
+/* PROFILE SECTION */
+/* ========================= */
+
+.profile-section{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.profile-card{
+    width:420px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:25px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 12px 35px rgba(0,0,0,0.5);
+}
+
+.profile-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    margin:auto;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+    box-shadow:0 5px 20px rgba(0,114,255,0.5);
+}
+
+.profile-card h1{
+    font-size:32px;
+    margin-bottom:10px;
+    color:#00e5ff;
+}
+
+.info{
+    margin-top:25px;
+    text-align:left;
+}
+
+.info p{
+    margin:14px 0;
+    padding:14px;
+    background:rgba(255,255,255,0.06);
+    border-left:4px solid #00c6ff;
+    border-radius:12px;
+    font-size:15px;
+}
+
+.info span{
+    color:#00e5ff;
+    font-weight:600;
+}
+
+.scroll-btn{
+    margin-top:35px;
+}
+
+.scroll-btn a{
+    text-decoration:none;
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    color:white;
+    padding:12px 28px;
+    border-radius:12px;
+    font-weight:600;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,114,255,0.4);
+}
+
+.scroll-btn a:hover{
+    transform:scale(1.05);
+    background:linear-gradient(45deg,#0072ff,#00c6ff);
+}
+
+/* ========================= */
+/* EXPERIMENT SECTION */
+/* ========================= */
+
+.experiment-section{
+    padding:60px 40px;
+}
+
+.header{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.header h1{
+    font-size:44px;
+    background:linear-gradient(to right,#00e5ff,#4facfe);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* GRID */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:24px;
+}
+
+/* CARD */
+
+.card{
+    background:rgba(255,255,255,0.07);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,0.1);
+    padding:25px;
+    border-radius:22px;
+    position:relative;
+    transition:0.4s;
+    overflow:hidden;
+}
+
+.card::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(to right,#00c6ff,#0072ff);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:#00c6ff;
+    box-shadow:0 12px 25px rgba(0,0,0,0.4);
+}
+
+.tag{
+    position:absolute;
+    top:15px;
+    right:15px;
+    background:linear-gradient(45deg,#00c6ff,#4facfe);
+    color:#111827;
+    padding:6px 12px;
+    border-radius:50px;
+    font-size:12px;
+    font-weight:700;
+}
+
+.card h3{
+    margin-bottom:20px;
+    font-size:22px;
+    color:#ffffff;
+}
+
+.card a{
+    text-decoration:none;
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    color:white;
+    padding:10px 18px;
+    border-radius:10px;
+    display:inline-block;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.card a:hover{
+    transform:scale(1.05);
+    background:linear-gradient(45deg,#0072ff,#00c6ff);
+}
+
+/* FOOTER */
+
+.footer{
+    text-align:center;
+    margin-top:50px;
+    color:#cbd5e1;
+    padding-bottom:20px;
+    font-size:14px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .profile-card{
+        width:100%;
+    }
+
+    .header h1{
+        font-size:32px;
+    }
+
+    .experiment-section{
+        padding:30px 20px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- PROFILE SECTION -->
+<!-- ========================= -->
+
+<section class="profile-section">
+
+    <div class="profile-card">
+
+        <div class="profile-img">
+            CW
+        </div>
+
+        <h1>Student Profile</h1>
+
+        <div class="info">
+            <p><span>Name :</span> saiesh joshi</p>
+            <p><span>Year :</span> 2025-26</p>
+            <p><span>Batch :</span> B3</p>
+            <p><span>Roll No :</span> 60</p>
+        </div>
+
+        <div class="scroll-btn">
+            <a href="#experiments">View Experiments</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- EXPERIMENT SECTION -->
+<!-- ========================= -->
+
+<section class="experiment-section" id="experiments">
+
+    <div class="header">
+        <h1>Web Development Experiments</h1>
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <span class="tag">A2</span>
+            <h3>Static Page</h3>
+            <a href="Experiment no 2">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A3</span>
+            <h3>Text Formatting</h3>
+            <a href="Experiment no 3">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A4</span>
+            <h3>Lists</h3>
+            <a href="Static webpage.html">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A5</span>
+            <h3>Images</h3>
+            <a href="Experiment no 5">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A6</span>
+            <h3>Frames</h3>
+            <a href="Experiment no 6">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A7</span>
+            <h3>Links</h3>
+            <a href="Experiment no 7">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A8</span>
+            <h3>Timetable</h3>
+            <a href="Experiment no 8">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A9</span>
+            <h3>Employee Registration</h3>
+            <a href="Experiment no 9">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A10</span>
+            <h3>Resume</h3>
+            <a href="Experiment no 10">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A11</span>
+            <h3>EXP11</h3>
+            <a href="Experiment no 11">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A12</span>
+            <h3>EXP12</h3>
+            <a href="Experiment no 12">Open</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">A13</span>
+            <h3>EXP13</h3>
+            <a href="Experiment no 13">Open</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2026 Web Tech Journal
+    </div>
+
+</section>
+
+</body>
+</html>
